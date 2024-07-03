@@ -1,0 +1,251 @@
+/* .aboutContainer {
+    width: 1000px;
+} */
+.about_section {
+    padding: 2rem 0;
+    border-bottom: 1px solid;
+    border-image: var(--primaryGradient) 1;
+}
+
+/* .about_section h2 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--primaryColor);
+} */
+
+.about_section p {
+    color: var(--textColor);
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+}
+
+.exprience {
+    padding: 3rem 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffcfcf;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-borderless .accordion-body {
+    border-top: none;
+}
+
+.accordion-button {
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.accordion-body h4 {
+    font-size: 20px;
+}
+
+.accordion-body ul li {
+    list-style-type: square;
+}
+
+
+
+.project_section {
+    margin: 3rem 0;
+}
+
+.project_section .headingStyle {
+    margin-bottom: 1.2rem;
+}
+
+#firstProject {
+    background-color: #c58427;
+}
+
+#secondProject {
+    background-color: #404042;
+}
+
+#thirdProject {
+    background-color: #005666;
+}
+
+#forthProject {
+    background-color: #3a6c46;
+}
+
+.project_Content {
+    color: white;
+}
+
+.project_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project_content_style {
+    font-family: var(--primary-fontFamily);
+    font-weight: 400;
+    color: white;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    /* width: 60%; */
+}
+
+.project_content_style .projectTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    font-family: var(--heading-fontFamily);
+}
+
+.project_content_style .project_summary {
+    color: white;
+    line-height: 1.7rem;
+}
+
+.project_content_style .tool_heading {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul.Development_custom_list {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 2rem;
+}
+
+ul.Development_custom_list li::before {
+    content: "\f067";
+    /* Unicode for fa-plus icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 10px;
+    font-size: 0.7em;
+}
+
+.project_content_style a {
+    color: white;
+    /* margin: 20px 0; */
+    border-radius: 2px;
+    padding: 1rem 2.5rem;
+    font-size: 0.9rem;
+}
+
+.project_content_style a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.project_content_style a:active {
+    background-color: transparent !important;
+    color: white !important;
+    outline: 1px solid white !important;
+}
+
+/* .project_img {
+    width: 60%;
+} */
+
+.project_img img {
+    width: 100%;
+    max-width: 50rem;
+}
+
+
+/* _______________________Footer Section_______________________ */
+footer {
+    padding-bottom: 2rem;
+    border-bottom: 9px solid;
+    border-image: var(--primaryGradient) 1;
+    margin-top: 5rem;
+}
+
+.footer_left .headingStyle {
+    color: var(--textColor);
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.copyright_txt {
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--textColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 2rem 0; */
+}
+
+.copyright_txt .copyright_name {
+    color: var(--textColor);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1px 4px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.socialMediaLinks li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.3rem 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: normal;
+    /* text-transform: uppercase; */
+}
+
+.socialMediaLinks li a {
+    cursor: pointer;
+    color: var(--textColor);
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 1px;
+}
+
+ul.socialMediaLinks li::before {
+    color: var(--primaryColor);
+}
+
+
+.socialMediaLinks li a:hover {
+    color: white;
+    transition: all 0.3s;
+}
+
+.socialMediaLinks li a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primaryGradient);
+    transition: top 0.3s;
+    z-index: -1;
+}
+
+.socialMediaLinks li a:hover::before {
+    top: 0;
+}
+
+.socialMediaLinks li a {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+}

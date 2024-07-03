@@ -1,0 +1,102 @@
+.contact_section {
+    /* padding: 4rem 6rem; */
+    text-transform: uppercase;
+    width: 870px;
+    max-width: 100%;
+    margin: 9rem auto 0;
+    transition: all 0.3s ease;
+}
+
+.contact-form input::placeholder {
+    color: var(--textColor);
+    text-transform: uppercase;
+}
+
+.contact-form textarea::placeholder {
+    color: var(--textColor);
+    text-transform: uppercase;
+}
+
+.contact_section .headingStyle {
+    color: var(--textColor);
+    font-size: 2.3rem;
+    margin-bottom: 1.7rem;
+}
+
+.contact-form {
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding: 1rem; */
+    /* border: 1px solid var(--textColor); */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.contact_input_group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    margin-bottom: 1.3rem;
+    align-items: center;
+}
+
+.contact_input_group input:focus,
+.contact_input_group textarea:focus {
+    border: 1px solid var(--textColor);
+    outline: none;
+}
+
+.contact_input_group input,
+.contact_input_group textarea {
+    flex: 1;
+    padding: 0.9rem;
+    border: 1px solid var(--textColor);
+    box-sizing: border-box;
+}
+
+.contact_input_group textarea {
+    resize: vertical;
+    height: 150px;
+    overflow: auto;
+}
+
+.contact-form .contact_button {
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    width: 210px;
+    max-width: 100%;
+    height: 3.8rem;
+}
+
+#form_message {
+    text-transform: none;
+}
+
+.dull_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    /* Adjust opacity as needed */
+    z-index: 999;
+    /* Ensure it is behind the popup but in front of other content */
+    transition: all 0.3s ease;
+}
+
+.formPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    min-width: inherit;
+    max-width: 400px;
+    text-transform: none;
+    transition: all 0.3s ease;
+}
