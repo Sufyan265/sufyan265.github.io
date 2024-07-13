@@ -24,7 +24,7 @@ function App() {
   };
   return (
     <>
-      <Router>
+      <Router basename='/'>
         <Navbar />
         <div className="body_container">
           {/* <Home /> */}
