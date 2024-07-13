@@ -1,25 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Page Not Found</title>
-  <script type="text/javascript">
-    (function() {
-      var pathSegmentsToKeep = 1;
-      var l = window.location;
-      var pathname = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/');
-      var search = l.search.slice(1).replace(/&/g, '~and~');
-      var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-                   pathname + '/?/' + l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/') +
-                   (search ? '&' + search : '') + l.hash;
-
-      // Prevent redirect loop
-      if (!l.search.startsWith('?/')) {
-        l.replace(newUrl);
-      }
-    })();
-  </script>
 </head>
+
 <body>
+  <h1>Page Not Found</h1>
+  <p>Sorry, the page you are looking for does not exist.</p>
 </body>
+
 </html>
