@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import resume from "../public/frontend-resume.pdf"
+import resume from "../public/resume.pdf"
 
 const ButtonGroup = () => {
     return (

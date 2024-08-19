@@ -30,7 +30,6 @@ function App() {
           {/* <Home /> */}
           {/* <ContactForm /> */}
           <ScrollToSection />
-
           <Routes>
             <Route exact path="/" element={
               <Home />

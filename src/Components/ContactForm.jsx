@@ -66,7 +66,6 @@ const ContactForm = () => {
                         <div className="contact_input_group">
                             <textarea id="message" name="message" placeholder="MESSAGE *" required></textarea>
                         </div>
-                        {/* <ReCAPTCHA sitekey="6LfyXgcqAAAAANF6YSqjRlutlwrQv__lhjVK40tt" /> */}
 
                         <div className="contact_input_group">
                             <button type="submit" className='btn btn-outline-dark contact_button'>SEND IT</button>
