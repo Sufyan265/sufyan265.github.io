@@ -8,7 +8,8 @@ const LandingLayout = () => {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["Freelance Web Developer for your Custom applications", "Innovative Web Solutions for Modern Businesses", "Reliable Developer: Your Partner in Digital Growth", "Transforming Ideas into Digital Reality"],
+            strings: ["Freelance Web Developer for your Custom applications", "Innovative Web Applications for Modern Businesses", "Reliable Partner in Digital Transformation", "Bringing Your Ideas to Life with MERN Stack"],
+
             typeSpeed: 25,
             backSpeed: 25,
             backDelay: 2000, // Add delay between backspace and start typing the next string
