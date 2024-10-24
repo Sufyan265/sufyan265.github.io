@@ -7,6 +7,11 @@
     border-image: var(--primaryGradient) 1;
 }
 
+.about_content p {
+    margin-bottom: 0.8rem;
+    color: black;
+}
+
 /* .about_section h2 {
     font-family: "Exo 2", sans-serif;
     font-weight: 700;
@@ -63,21 +68,21 @@
     margin-bottom: 1.2rem;
 }
 
-#firstProject {
+/* #firstProject {
     background-color: #c58427;
-}
+} */
 
-#secondProject {
+/* #secondProject {
     background-color: #404042;
-}
+} */
 
-#thirdProject {
+/* #thirdProject {
     background-color: #005666;
-}
+} */
 
-#forthProject {
+/* #forthProject {
     background-color: #3a6c46;
-}
+} */
 
 .project_Content {
     color: white;

@@ -10,9 +10,9 @@ const About = () => {
                     <div className="about_content">
                         <p>My name is Muhammad Sufyan, and I am a passionate Full Stack Developer specializing in building robust and dynamic web applications. My expertise spans both frontend and backend development, allowing me to create complete solutions tailored to your needs.</p>
 
-                        <p><strong>Frontend Skills</strong>: I excel in using modern technologies like HTML, CSS, JavaScript, Bootstrap, Tailwind, and ReactJS to design responsive, visually appealing user interfaces that provide seamless user experiences.</p>
+                        <p><strong>Frontend Skills</strong>: I excel in using modern technologies like HTML, CSS, JavaScript, Bootstrap, Tailwind, ReactJS, and Next.js to design responsive, visually appealing user interfaces that provide seamless user experiences.</p>
 
-                        <p><strong>Backend Skills</strong>: On the backend, I leverage Node.js, Express.js, and MongoDB (MERN stack) to develop scalable, efficient server-side applications that power web platforms.</p>
+                        <p><strong>Backend Skills</strong>: On the backend, I leverage Node.js, Express.js, MongoDB (MERN stack), and Firebase to develop scalable, efficient server-side applications that power web platforms.</p>
 
                         <p>My journey in web development began with a deep fascination with how websites function. Over time, I have continuously refined my skills to offer comprehensive solutions that span the entire development process—from creating sleek UI components to building secure, performant backend services.</p>
 
