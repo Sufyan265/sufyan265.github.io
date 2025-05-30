@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Page Not Found</title>
+  <style>
+    body {
+      /* background: linear-gradient(135deg, #232526 0%, #414345 100%); */
+      color: #fff;
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      /* background: rgba(34, 40, 49, 0.85); */
+      padding: 40px 50px;
+      border-radius: 18px;
+      /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+      text-align: center;
+      max-width: 400px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      color: #ef402f;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      color: #8d8d8d;
+    }
+    a {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #ef402f;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.2s;
+      box-shadow: 0 2px 8px rgba(255,99,99,0.15);
+    }
+    a:hover {
+      background: #ff4747;
+    }
+    @media (max-width: 500px) {
+      .container {
+        padding: 24px 10px;
+        max-width: 95vw;
+      }
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
 </head>
-
 <body>
-  <h1>Page Not Found</h1>
-  <p>Sorry, the page you are looking for does not exist.</p>
+  <div class="container">
+    <h1>404</h1>
+    <p>Sorry, the page you are looking for does not exist.</p>
+    <a href="/">Go Home</a>
+  </div>
 </body>
-
 </html>
