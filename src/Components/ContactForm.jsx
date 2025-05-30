@@ -47,6 +47,11 @@ const ContactForm = () => {
             <div className="container">
                 <div className="contact_section">
                     <h2 className="headingStyle">Let's build a thing</h2>
+                    
+                    <div className="contact_info">
+                        <p>Email: <a href="mailto:suficontact265@gmail.com" className="contact_link">suficontact265@gmail.com</a></p>
+                        <p>Contact Number: <a href="https://wa.me/923430167265" className="contact_link" target="_blank" rel="noopener noreferrer">+923430167265</a></p>
+                    </div>
 
                     <form onSubmit={onSubmit} className="contact-form">
                         {/* <input type="hidden" name="redirect" value="https://web3forms.com/success"/> */}

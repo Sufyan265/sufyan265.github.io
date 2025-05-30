@@ -17,6 +17,7 @@ const Footer = () => {
                                 <li><a href="https://github.com/Sufyan265" target='_blank'>GitHub</a></li>
                                 <li><a href="https://www.linkedin.com/in/muhammad-sufyan-b57886302" target='_blank'>LinkedIn</a></li>
                                 <li><a href="https://www.facebook.com/profile.php?id=61558659832300" target='_blank'>Facebook</a></li>
+                                <li><a href="https://wa.me/+923430167265" target='_blank'>Whatsapp</a></li>
                                 <li><a href="https://www.instagram.com/sufideveloper/" target='_blank'>Instagram</a></li>
                             </ul>
                         </div>
